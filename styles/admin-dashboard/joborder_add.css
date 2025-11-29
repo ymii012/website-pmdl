@@ -1,0 +1,125 @@
+.joborder-add {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+.btn-addjob{
+    background-color: #d61c1c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+/* --------------------------------------- */
+.order-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.25rem;
+    color: #6B7280;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.addjob-title {
+    float: left;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.subadd-title2 {
+    flex: block;
+    text-align: left;
+    margin-left: 0%;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.addjob-body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    width: 70%;
+    max-width: 700px;
+    height: 500px;
+    max-width: 100%;
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.jobadd-subtitle,
+.jobsub-title2 {
+    margin-bottom: 6px;
+}
+
+/* ========================================= */
+.jobadd-topbox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-bottom: 15px;
+}
+
+.topbox-input {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* ========================================== */
+.job-contactadd {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-bottom: 105px;
+}
+/* =============================================== */
+.addjob-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.add-req-ben{
+    justify-items: left;
+    padding: 8px;
+    background-color: #d61c1c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+/* ============================================ */
+.btn-addjob-cancel {
+    background: #e5e7ebd0;
+    color: #000000;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn-joborder-add {
+    background: #c00;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+}
+#jobDescription {
+    white-space: pre-wrap;
+}

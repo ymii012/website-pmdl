@@ -1,0 +1,24 @@
+<div class="notification-context-details-account-request">
+  <h4>Account Request Details</h4>
+  <div>
+    <h6>Request ID:</h6>
+    <p>REQ-2023-123</p>
+  </div>
+  <div>
+    <h6>Email:</h6>
+    <p>example@gmail.com</p>
+  </div>
+  <div>
+    <h6>Phone Number:</h6>
+    <p>+63 9123456789</p>
+  </div>
+  <div>
+    <h6>Request Type:</h6>
+    <p>OFW Registration</p>
+  </div>
+  
+  <div class = "buttons">
+    <button class = "approved-btn">&#10003; Approve</button>
+    <button class = "reject-btn">&#10005; Reject</button>
+  </div>
+</div>

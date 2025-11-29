@@ -1,0 +1,136 @@
+/* JOBS UI */
+.search-section {
+  display: flex;
+  padding: 20px;
+  gap: 10px;
+  background: #fff;
+}
+
+.search-input {
+  flex: 1;
+  width: 400px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  text-align: left;
+}
+
+.search-input:focus {
+  border-color: #d32f2f;
+  box-shadow: 0 0 5px rgba(211, 47, 47, 0.5);
+  outline: none;
+}
+
+.location-select {
+  padding: 10px;
+  font-size: 16px;
+  text-align: left;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 370px;
+}
+
+.location-select:focus {
+  border-color: #d32f2f;
+  box-shadow: 0 0 5px rgba(211, 47, 47, 0.5);
+  outline: none;
+}
+
+.btn-search {
+  background: #c62828;
+  color: white;
+  font-weight: bold;
+  padding: 20px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-search:hover {
+  background: #b71c1c;
+}
+
+.subtitle {
+  margin-top: 30px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.subtitle h2 {
+  color: #961010;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.subtitle h3 {
+  color: #857f7f;
+  font-size: 16px;
+}
+
+.job-section {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.job-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.job-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 20px;
+  text-align: left;
+}
+
+.job-card h3 {
+  font-size: 18px;
+  margin: 0;
+  color: #d32f2f;
+}
+
+.job-card p {
+  margin: 5px 0;
+  color: #333;
+}
+
+.job-details {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  font-size: 14px;
+  color: #444;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #d32f2f;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 15px;
+  margin-left: 187px;
+  margin-bottom: 25px;
+}
+
+.btn:hover {
+  background-color: #b71c1c;
+}
+#jobDescription {
+    white-space: pre-wrap;
+}

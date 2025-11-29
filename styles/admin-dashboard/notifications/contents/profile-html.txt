@@ -1,0 +1,9 @@
+<div class="notification-context-details-profile">
+  <h5>Account Changes</h5>
+  <p>The following information was updated:</p>
+  <h6>Contact Number:</h6>
+  <p>12345 > 67890</p>
+  <h6>Email Address:</h6>
+  <p>example@gmail.com > exmaple1@gmail.com</p>
+  <p class="updated-by">Changed by: Maria Santos</p>
+</div>

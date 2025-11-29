@@ -1,0 +1,32 @@
+.birth-modal{
+     position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: none; 
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  z-index: 9999;
+}
+.birth-modal.active{
+  display: flex; /* ✅ SHOW WHEN ACTIVE */
+}
+
+.birth-body{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 70%;
+  max-width: 700px;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+
+.birth-image{
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}

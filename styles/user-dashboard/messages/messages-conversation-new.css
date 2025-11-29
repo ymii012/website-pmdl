@@ -1,0 +1,26 @@
+.conversation-messages-new {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.conversation-image-container-new {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f4f6;
+  border-radius: 50%;
+  width: 10vh;
+  height: 10vh;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.conversation-image-new {
+  width: 70%;
+  object-fit: contain;
+  box-sizing: border-box;
+  margin: 0;
+}
+.conversation-message-new {
+  text-align: center;
+}

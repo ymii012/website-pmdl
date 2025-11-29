@@ -1,0 +1,30 @@
+.cc {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.user11 {
+    color: #ffffff;
+    margin-left: 1100px;
+}
+
+.userapp {
+    padding: 20px 18px;
+    font-family: "Poppins", sans-serif;
+    background-color: #d32f2f;
+}
+.upperbox{
+     display: flex;
+    justify-content: center;
+}
+.box1{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    background-color: #f8f8f8;
+    margin: 50px;
+    border-radius: 10px;
+    padding: 60px 50px;
+    width: 700px;
+}

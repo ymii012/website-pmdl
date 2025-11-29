@@ -1,0 +1,54 @@
+.notification-context-details-documents {
+  display: grid;
+  background-color: #fefce8;
+  padding: 1em;
+  gap: 1em;
+  border-radius: 0.5em;
+}
+.notification-context-details-documents h6 {
+  color: #6b7280;
+  font-size: 0.9rem;
+}
+.notification-context-details-documents p {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.notification-context-details-documents .status {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.notification-context-details-documents .status p {
+  font-size: 0.8rem;
+  font-weight: normal;
+  padding: 0.3em 1em;
+  border-radius: 1em;
+}
+.notification-context-details-documents .pending p {
+  color: #1f2937;
+  background-color: #f3f4f6;
+}
+.notification-context-details-documents .approved p {
+  color: #166534;
+  background-color: #dcfce7;
+}
+.notification-context-details-documents button {
+  border: none;
+  display: flex;
+  gap: 1em;
+  height: 3em;
+  background-color: #ca8a04;
+  color: white;
+  font-weight: 600;
+  border-radius: 0.5em;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em;
+}
+.notification-context-details-documents button:hover {
+  background-color: #986801;
+}
+.notification-context-details-documents img {
+  object-fit: cover;
+  height: 90%;
+}

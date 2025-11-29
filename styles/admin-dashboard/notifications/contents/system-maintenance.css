@@ -1,0 +1,18 @@
+.notification-context-details-system-maintenance {
+  display: grid;
+  gap: 1em;
+  background-color: #f9fafb;
+  border-radius: 0.5em;
+  padding: 1em;
+}
+.notification-context-details-system-maintenance h6 {
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+.notification-context-details-system-maintenance ul {
+  margin-left: 2em;
+}
+.notification-context-details-system-maintenance .contact {
+  color: #6b7280;
+  font-size: 0.8rem;
+}

@@ -1,0 +1,146 @@
+/*Layout*/
+.messages-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.messages-list {
+  display: flex;
+  flex-direction: column;
+  border-right: #f3f4f6 solid 2px;
+  background-color: white;
+  flex: 1;
+  border-radius: 10px;
+}
+.messages-conversation {
+  display: flex;
+  border-left: #f3f4f6 solid 2px;
+  background-color: white;
+  flex: 3;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+/*Header + Search bar*/
+.list-header {
+  padding: 20px 15px 0px 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+h3 {
+  margin: 0;
+  margin-bottom: 15px;
+}
+.search {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.search input {
+  padding-left: 30px;
+  height: 40px;
+  border-radius: 5px;
+  border: #f3f4f6 solid 3px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.search span {
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.search img {
+  width: 25px;
+}
+/*Chat Lists*/
+.lists {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.conversation {
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  box-sizing: border-box;
+  border-width: 3px 0px 3px 0px;
+  border-style: solid;
+  border-color: #f3f4f6;
+  align-items: center;
+  padding-right: 5px;
+}
+.convo-notif {
+  background-color: #fef2f2;
+}
+.notif {
+  display: none;
+}
+.notif-active {
+  display: inline-block;
+}
+.conversation img {
+  height: 40px;
+  border-radius: 50%;
+  margin: 10px;
+  object-fit: contain;
+  align-self: center;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+}
+.details div {
+  display: flex;
+  justify-content: space-between;
+}
+.name {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+.time {
+  font-size: 10px;
+  font-weight: bold;
+  color: darkgrey;
+  align-self: center;
+}
+.details .chat {
+  font-size: 12px;
+  color: gray;
+  margin: 0;
+  margin-top: 10px;
+}
+/*Conversation*/
+.messages-conversation .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.messages-conversation .image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f4f6;
+  border-radius: 50%;
+  width: 10vh;
+  height: 10vh;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.messages-conversation img {
+  width: 70%;
+  object-fit: contain;
+  box-sizing: border-box;
+  margin: 0;
+}
+.message-error {
+  text-align: center;
+}

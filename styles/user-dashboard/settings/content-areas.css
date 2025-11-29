@@ -1,0 +1,45 @@
+.content-active {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.content-header {
+  display: flex;
+  height: 4rem;
+  align-items: center;
+}
+
+.content-body {
+  border-top: lightgray 1px solid;
+  border-bottom: lightgray 1px solid;
+  flex: 1;
+  overflow: hidden;
+}
+
+.content-footer {
+  height: 5rem;
+}
+
+.save-changes {
+  font-weight: bold;
+  height: 3rem;
+  display: flex;
+  border: none;
+  background-color: #b91c1c;
+  color: white;
+  align-items: center;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  transition: transform 0.1s ease-in-out;
+}
+.save-changes:hover {
+  background-color: #f36d6d;
+  cursor: pointer;
+}
+.save-changes:active {
+  transform: translateY(2px);
+}
+.save-changes img {
+  object-fit: contain;
+  height: 100%;
+}

@@ -1,0 +1,11 @@
+<div class="notification-context-details-system-maintenance">
+  <h4>System Notification</h4>
+  <p>Scheduled System Maintenance on December 20, 2023 from 10:00 PM to 2:00 AM</p>
+  <h6>Affected Services:</h6>
+  <ul>
+    <li>User registration</li>
+    <li>Document uploads</li>
+    <li>Payment processing</li>
+  </ul>
+  <p class="contact">Contact: IT support at suppor@pmdl.gov.ph</p>
+</div>

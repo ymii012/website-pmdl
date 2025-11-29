@@ -1,0 +1,35 @@
+.settings-access-required {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.settings-access-required div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+.settings-access-required div img {
+  object-fit: contain;
+  height: 6em;
+}
+.settings-access-required div p {
+  color: #6b7280;
+}
+.settings-access-required div button {
+  padding: 0.5em 1em;
+  display: flex;
+  border: none;
+  background-color: #dc2626;
+  border-radius: 1em;
+  align-items: center;
+  gap: 1em;
+  color: white;
+  font-size: 1em;
+}
+.settings-access-required div button img {
+  object-fit: contain;
+  height: 2.5em;
+}

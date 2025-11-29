@@ -1,0 +1,20 @@
+<div class="notification-context-details-documents">
+  <h4>Document Status Update</h4>
+  <div>
+    <h6>Document Type:</h6>
+    <p>Visa</p>
+  </div>
+  <div class="status pending">
+    <h6>Previous Status:</h6>
+    <p>Pending</p>
+  </div>
+  <div class="status approved">
+    <h6>New Status:</h6>
+    <p>Approved</p>
+  </div>
+  <div>
+    <h6>Comments:</h6>
+    <p>All requirements met. Visa valid for 2 years.</p>
+  </div>
+  <button><img src="images/icons/doc-icon-white.png" alt="">View Document</button>
+</div>

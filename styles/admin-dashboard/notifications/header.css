@@ -1,0 +1,37 @@
+.notifications-header {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.notifications-header * {
+  margin: 0;
+  padding: 0;
+}
+.notifications-header h4 {
+  margin: 0.5em 0 0 1em;
+  text-align: left;
+}
+.notifications-info {
+  color: #6b7280;
+  margin-left: 1.5em;
+  font-size: 0.9rem;
+}
+.notifications-filter {
+  display: flex;
+  flex: 1;
+  border-top: #e4e6ea solid 0.1em;
+  background-color: #f9fafb;
+  box-sizing: border-box;
+  gap: 1em;
+  padding: 0.5em;
+}
+.notifications-filter button {
+  border: none;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  background-color: white;
+}
+.filter-btn-active {
+  background-color: #fee2e2 !important;
+  color: #b31b1b;
+}

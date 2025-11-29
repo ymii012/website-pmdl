@@ -1,0 +1,104 @@
+.notifications-content {
+  display: grid;
+  grid-template-rows: 10vh 1fr;
+  grid-template-areas:
+    "header"
+    "body";
+  background-color: white;
+}
+/*---for interactivity---*/
+.notifications-content.notif-content-empty {
+  display: flex;
+  grid-template-rows: none;
+  grid-template-areas: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+.notif-content-empty div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.notif-content-empty img {
+  object-fit: contain;
+  height: 4em;
+  background-color: #f3f4f6;
+  border-radius: 50%;
+  padding: 0.5em;
+}
+/*---for interactivity---*/
+.notifications-content * {
+  margin: 0;
+  padding: 0;
+}
+.notification-content-header {
+  grid-area: header;
+  border-bottom: #e4e6ea solid 0.1em;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1em;
+}
+.notification-content-name h4 {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.notification-content-timestamp {
+  font-size: 0.8rem;
+}
+.notification-content-actions {
+  display: flex;
+  gap: 1em;
+}
+.notification-content-actions button {
+  border: none;
+  border-radius: 0.5em;
+  height: 1.8em;
+  background: none;
+}
+.notification-content-actions img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.notification-content-body {
+  grid-area: body;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+.notification-user-info {
+  display: flex;
+  padding: 1em;
+  gap: 1em;
+  height: 5em;
+  justify-content: center;
+}
+.notification-user-info img {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 3em;
+  height: 3em;
+}
+.notification-user-info .user-action {
+  color: #6b7280;
+  font-size: 0.8rem;
+}
+.notification-user-info .user-name {
+  color: black;
+  font-weight: 600;
+}
+.notification-context {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 1em 2em;
+}
+.notification-context p {
+  color: black;
+}

@@ -1,0 +1,326 @@
+/*ADMIN UI*/
+
+/*Pie Chart*/
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+button:focus input:focus,
+textarea:focus {
+  outline: 0;
+}
+
+body {
+  background: #ffffff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  padding: 80px 0;
+  /* text-align: center; */
+}
+
+.container h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.sidebr {
+  font-family: "Poppins", sans-serif;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 220px;
+  background: #fbf7f7;
+  box-shadow: 2px 0 6px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebr-header {
+  height: 64px;
+  background: #b81f1f;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.anav {
+  flex: 1;
+  padding: 18px 0 80px;
+}
+
+.Alist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Alist li {
+  margin: 12px 0;
+}
+
+.Alist a {
+  display: block;
+  padding: 10px 28px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 400;
+  border-left: 3px solid transparent;
+  transition: all 0.12s ease;
+  font-family: "Poppins", sans-serif;
+}
+
+.Alist a:hover {
+  background: rgba(184, 31, 31, 0.04);
+}
+
+.Alist a.active {
+  color: #b81f1f;
+  font-weight: 600;
+  background: rgba(184, 31, 31, 0.06);
+  border-left-color: rgba(184, 31, 31, 0.2);
+  padding-left: 25px;
+}
+
+.logout {
+  padding: 18px 0;
+  text-align: left;
+  border-top: 1px solid rgba(0, 0, 0, 0.03);
+}
+
+.logout a {
+  display: inline-block;
+  margin: 12px 28px;
+  color: #333;
+  text-decoration: none;
+}
+
+/* Main area (to right of sidebar) */
+.main {
+  margin-left: 220px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.topbar {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-bottom: 1px solid #eee;
+  background: #fff;
+}
+
+.user1 {
+  margin-left: 850px;
+}
+
+.content {
+  font-family: "Poppins", sans-serif;
+  padding: 20px 20px;
+  flex: 1;
+  background: #f3f4f6;
+}
+
+/* Pages */
+.page {
+  display: none;
+}
+
+.page.active {
+  display: block;
+}
+
+/* small responsive */
+@media (max-width: 640px) {
+  .search1 input {
+    width: 180px;
+    max-width: 40vw;
+  }
+
+  .sidebar {
+    width: 200px;
+  }
+
+  .main {
+    margin-left: 200px;
+  }
+}
+
+/*--------------------------------------------------------------------------------------------*/
+/* ADMIN HOMEPAGE */
+.filter01 {
+  width: 150px;
+  padding: 12px 20px;
+  border-radius: 4px;
+}
+
+.home_title {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.info1 h4 {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.info1 {
+  width: 1005px;
+  height: 70px;
+  padding: 2px 0px;
+  justify-content: center;
+  text-align: left;
+  border-radius: 4px;
+  background: #fffefe;
+  margin-top: 10px;
+  border: 1px solid #d4d4d4;
+}
+
+.info1 a,
+h4 {
+  margin-left: 15px;
+}
+
+.info1 a {
+  font-size: 13px;
+  color: #615b5b;
+}
+
+.info1 h4 {
+  font-size: 17px;
+}
+
+.cnA {
+  background: #fff;
+  padding: 20px;
+  width: 1005px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.filters {
+  margin-bottom: 20px;
+}
+
+.filter-btn {
+  border-radius: 9px;
+  border: none;
+  padding: 10px;
+}
+
+.filter-btn:hover {
+  color: white;
+  background-color: #e02121;
+}
+
+.searchh1 {
+  float: right;
+  margin-top: 6px;
+}
+
+.searchh1 input {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 8px;
+}
+
+
+.bm-tag {
+  background: #e6f0ff;
+  color: #2c6ed5;
+  padding: 2px 8px;
+  border-radius: 8px;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.td.complete {
+  color: green;
+  font-weight: bold;
+}
+
+.td.incomplete {
+  color: orange;
+  font-weight: bold;
+}
+
+.td.pending {
+  color: #999;
+  font-weight: bold;
+}
+
+.action a {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.action a:hover {
+  text-decoration: underline;
+}
+
+.charts-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+
+.charts-row>div {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* -------------------------------------JOB ORDER---------------------------- */
+.search-job {
+  float: right;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+
+
+
+
+
+
+
+
+
+/* ADAPT */
+@media only screen and (max-width: 767px) {}
+
+@media only screen and (min-width: 1024px) and(max-width:1439px) {}
+
+@media only screen and (min-width: 1440px) {}
+
+html,
+body,
+.main,
+.content,
+#messages.page {
+  height: 100%;
+  min-height: 100vh;
+}

@@ -1,0 +1,140 @@
+.view-selected-applicant {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalApplicant-body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 70%;
+    max-width: 700px;
+    height: 500px;
+    max-width: 100%;
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.modal-close-chosen-app {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.25rem;
+    color: #6B7280;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+/* ------------------------------------------------- */
+.applicant-chosen-header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    border: 2px solid rgba(0, 0, 0, 0.03);
+}
+
+.applicant-status {
+    float: right;
+}
+
+.app-name-gen {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+.app-sex {
+    margin-left: 14px;
+}
+
+.close-chosen-applicant {
+    padding: 20px;
+}
+
+/* ------------------------------------------------ */
+.applicant-info-box {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #d3cece;
+}
+
+.applicant-contact {
+    flex: 1;
+    min-width: 260px;
+    background: #ffffff;
+    color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* ------------------------------------------------- */
+.docu-stat {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.document-status {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 15px;
+}
+
+.document-status-box {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* --------------------------------------------- */
+.notes-app {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.app-footer-buttons {
+    border-top: 1px solid #d3cece;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.back-app {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    gap: 5px;
+}
+
+.update-app {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    float: right;
+    margin-right: 7px;
+}
+
+.view-app-docu {
+    float: right;
+    justify-items: left;
+    padding: 8px;
+    background-color: #d61c1c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}

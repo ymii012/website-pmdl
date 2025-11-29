@@ -1,0 +1,34 @@
+.settings-advance-content {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-rows: repeat(auto, 5em);
+  gap: 0.5em;
+}
+.settings-advance-items {
+  border-top: #e5e7eb solid 0.1em;
+  display: flex;
+  gap: 1em;
+  padding: 0.5em;
+}
+.settings-advance-items img {
+  object-fit: contain;
+  height: 2em;
+  align-self: flex-start;
+}
+.settings-advance-items div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+.settings-advance-items div h4 {
+  margin: 0;
+  font-size: 1.3rem;
+}
+.settings-advance-items div time,
+p {
+  color: #6b7280;
+}
+.settings-advance-items div time {
+  margin: 0;
+  font-size: 0.8em;
+}

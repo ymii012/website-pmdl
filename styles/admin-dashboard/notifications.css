@@ -1,0 +1,31 @@
+.notifications-container {
+  display: grid;
+  grid-template-columns: 40ch 1fr;
+  grid-template-rows: 16vh 84vh;
+  grid-template-areas:
+    "header header"
+    "list content";
+  height: 100vh;
+  border-radius: 0.5em;
+  overflow: hidden;
+  border: #e4e6ea solid 0.1em;
+}
+.notifications-container * {
+  margin: 0;
+  padding: 0;
+}
+.notifications-header {
+  grid-area: header;
+  border-bottom: #e4e6ea solid 0.1em;
+}
+.notifications-list {
+  grid-area: list;
+  border-right: #e4e6ea solid 0.05em;
+  overflow: auto;
+  background-color: white;
+}
+.notifications-content {
+  grid-area: content;
+  border-left: #e4e6ea solid 0.05em;
+  transition: background-color 0.1s ease-in-out;
+}

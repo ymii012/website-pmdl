@@ -1,0 +1,7 @@
+<div class="notifications-content notif-content-empty">
+  <div>
+    <img src="images/icons/notification-bell-icon-grey.png" alt="">
+    <h5>Select a notification</h5>
+    <p>Choose a notification from the list to view its details</p>
+  </div>
+</div>

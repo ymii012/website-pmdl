@@ -1,0 +1,38 @@
+.notification-context-details-account-request {
+  display: grid;
+  gap: 1em;
+  background-color: #faf5ff;
+  padding: 1em;
+  border-radius: 0.8em;
+}
+.notification-context-details-account-request h6 {
+  color: #6b7280;
+}
+
+.notification-context-details-account-request .buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+}
+.notification-context-details-account-request button {
+  padding: 0.5em;
+  border-radius: 0.5em;
+}
+.approved-btn {
+  background-color: #16a34a;
+  color: white;
+  border: none;
+}
+.approved-btn:hover {
+  background-color: #118e3e;
+  transition: background-color 0.1s ease-in-out;
+}
+.reject-btn {
+  background-color: white;
+  color: black;
+  border: #d1d5db solid 0.09em;
+}
+.reject-btn:hover {
+  background-color: #f8f8f8;
+  transition: background-color 0.1s ease-in-out;
+}

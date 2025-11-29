@@ -1,0 +1,7 @@
+<div class="notification-context-details-message">
+  <h5>Message Preview</h5>
+  <div class="message-preview">
+    "When will my PDOS be Scheduled?"
+  </div>
+  <button><img src="images/icons/message-icon-white.png" alt="">Open Conversation</button>
+</div>

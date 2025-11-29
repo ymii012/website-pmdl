@@ -1,0 +1,21 @@
+.empty-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  font-size: 14px;
+  background-color: white;
+}
+.chat-icon-error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-color: #f3f4f6;
+  border-radius: 50%;
+}
+.chat-icon-error img {
+  flex: 1;
+  object-fit: contain;
+}

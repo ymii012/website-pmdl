@@ -1,0 +1,50 @@
+.job-view-applicant-modal {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+.view-applicant-body{
+     background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 70%;
+    max-width: 700px;
+    height: 500px;
+    max-width: 100%;
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.modal-close-applicant{
+    position: absolute;
+    top: 1rem;
+    font-size: 18px;
+    color: #6B7280;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+.applicant-joborder{
+    float: right;
+    font-size: 17px;
+}
+.applicants-box{
+    margin-bottom: 1rem;
+    padding: 20px;
+    background-color: #e9e9e9;
+    width: 900px;
+    border-radius: 4px;
+}
+.applicants-inside{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}

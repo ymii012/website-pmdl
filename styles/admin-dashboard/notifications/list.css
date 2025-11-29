@@ -1,0 +1,102 @@
+.notifications-list {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  height: 100%;
+}
+.notifications-list * {
+  margin: 0;
+  padding: 0;
+}
+.notification-list-container {
+  position: relative;
+  background-color: white;
+  border-bottom: #e4e6ea solid 0.1em;
+  display: flex;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 1em;
+  gap: 1em;
+  min-height: 6.5em;
+}
+/*---for interactivity---*/
+.notif-active {
+  background-color: #f5f5f5;
+}
+.notif-unread {
+  background-color: #fef2f2;
+}
+.notif-tag {
+  object-fit: contain;
+  width: 0.7em;
+  align-self: flex-start;
+  display: none;
+  position: absolute;
+  left: 93%;
+}
+.notif-unread .notif-tag {
+  display: block;
+}
+
+.notifications-list.notif-list-empty {
+  display: flex;
+  grid-template-rows: none;
+  grid-template-areas: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+.notif-list-empty div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+.notif-list-empty img {
+  object-fit: contain;
+  height: 4em;
+  background-color: #f3f4f6;
+  border-radius: 50%;
+  padding: 0.5em;
+}
+/*---for interactivity---*/
+.notification-list-container:hover {
+  background-color: #f3f4f699;
+  transition: bakcground-color 0.15s ease-in-out;
+  cursor: pointer;
+}
+.notification-icon {
+  object-fit: cover;
+  height: 4vh;
+  align-self: flex-start;
+  justify-self: center;
+}
+.notification-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+  flex: 1;
+}
+.notification-details p {
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  white-space: normal;
+  min-width: 0;
+}
+.notification-time-stamp {
+  font-size: 0.8rem;
+}
+.notification-name {
+  color: black;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.notification-message {
+  font-size: 0.95rem;
+}

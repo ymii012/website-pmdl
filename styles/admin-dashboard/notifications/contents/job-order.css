@@ -1,0 +1,37 @@
+.notification-context-details-job-order {
+  display: grid;
+  gap: 1em;
+  padding: 1em;
+  background-color: #fef2f2;
+  border-radius: 0.5em;
+}
+.notification-context-details-job-order h6 {
+  color: #6b7280;
+}
+.notification-context-details-job-order p {
+  font-weight: 600;
+}
+.notification-context-details-job-order h6,
+.notification-context-details-job-order p {
+  font-size: 0.9rem;
+}
+.notification-context-details-job-order button {
+  background-color: #dc2626;
+  border: none;
+  border-radius: 1em;
+  display: flex;
+  gap: 1em;
+  height: 3em;
+  padding: 0.5em;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.notification-context-details-job-order button:hover {
+  background-color: #b32828;
+  transition: backgroun-color 0.15s ease-in-out;
+}
+.notification-context-details-job-order img {
+  object-fit: cover;
+  height: 90%;
+}

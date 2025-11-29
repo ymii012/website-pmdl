@@ -1,0 +1,18 @@
+.notification-context-details-profile {
+  display: flex;
+  flex-direction: column;
+  background-color: #eff6ff;
+  padding: 1em;
+  border-radius: 0.8em;
+  gap: 1em;
+}
+.notification-context-details-profile h5,
+.notification-context-details-profile h6 {
+  font-weight: 600;
+}
+.notification-context-details-profile p {
+  color: #6b7280;
+}
+.updated-by {
+  font-size: 0.8rem;
+}

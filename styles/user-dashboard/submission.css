@@ -1,0 +1,176 @@
+.ap20{
+    background: #eeebeb;
+}
+.cc {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.user11 {
+    color: #ffffff;
+    margin-left: 1100px;
+}
+
+.userapp {
+    padding: 20px 18px;
+    font-family: "Poppins", sans-serif;
+    background-color: #d32f2f;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.upperbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* centers children horizontally */
+    width: 100%;
+}
+
+.upperbox a{
+    color: dimgray;
+    font-size: 14px;
+}
+.box1{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    background-color: #f8f8f8;
+    margin: 50px;
+    border-radius: 10px;
+    padding: 60px 50px;
+    width: 700px;
+}
+.info3{
+    margin-top: 50px;
+    font-weight: 15px;
+    font-size: 15px;
+    text-align: left;
+
+}
+/* ------------------------------------------- */
+.upload-card {
+  font-family: "Poppins", sans-serif;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  width: 700px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  border: 1px solid #e5e7eb;
+  margin-bottom: 70px;
+}
+
+.upload-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.warning-icon {
+  color: #d9534f;
+  font-size: 20px;
+}
+
+.upload-header h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.required {
+  color: #d9534f;
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.instruction {
+  color: #555;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.upload-box {
+  border: 2px dashed #cfd3d8;
+  border-radius: 8px;
+  padding: 35px 20px;
+  text-align: center;
+  transition: border-color 0.3s;
+  cursor: pointer;
+}
+
+.upload-box:hover {
+  border-color: #7a7a7a;
+}
+
+.upload-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  pointer-events: none;
+}
+
+.upload-icon {
+  font-size: 28px;
+  color: #888;
+  margin-bottom: 5px;
+}
+
+.upload-btn {
+  color: #d9534f;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.file-info {
+  font-size: 12px;
+  color: #777;
+}
+/* ------------------------------------ */
+.footer01 {
+  padding: 15px;
+  background: #b71c1c;
+}
+.A-footer h4 {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  text-align: center;
+}
+.btn01{
+    font-size:1rem;
+    margin-bottom: 30px;
+    padding:10px 0;
+    border-radius:5px;
+    outline:none;
+    border:none;
+    width: 190px;
+    background:#d32f2f;
+    color:white;
+    cursor:pointer;
+    transition:0.9s;
+}
+.btn01:hover{
+    background:#af1414;
+    color: white;
+}
+.submitbutton{
+    display: flex;
+    justify-content: right;
+}
+.backhome {
+  padding: 10px;
+  width: 90px;
+  border-radius: 4px;
+  border: none;
+  margin-top: 15px;
+  margin-left: 35px;
+  background: #d12424;
+}
+.backhome a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
